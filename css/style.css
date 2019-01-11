@@ -1,9 +1,12 @@
 body{
     font-family: 'Thasadith', sans-serif;
+    background: #242424;
 }
 
 #menu {
     background-color: #242424;
+      padding: 10px 60px;
+
 }
 
 .nav-link {
@@ -22,14 +25,14 @@ body{
     font-weight: bold;
     font-size: 3em;
     padding: 2em;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.1em;
 }
 
 .textinho{
     text-align: center;
     font-size: 1.4em;
-    padding: 0.1em;
-    padding-bottom: 1em;
+    padding: 3em;
+    padding-bottom: 5em;
 }
 
 .home-foto{
@@ -41,9 +44,7 @@ body{
     text-align: center;
     font-size: 3em;
     font-weight: bold;
-    padding: 2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.2em;
+    padding: 1em;
 }
 
 .orcamento-texto{
@@ -56,11 +57,14 @@ body{
 #orcamento_id{
     background-image: url("https://st4.depositphotos.com/5934840/20678/v/600/depositphotos_206788120-stock-video-money-pattern-background-hd-animation.jpg");
     background-repeat: repeat;
+    padding: 1em;
+    padding-bottom: 0em;
 }
 
 
-#funcionalidades_id{
-
+#tecnologias_id{
+  background-image: url("https://images.pexels.com/photos/1020317/pexels-photo-1020317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: repeat;
 }
 
 #equipe_id{
@@ -133,5 +137,42 @@ html {
 .nome_programadores{
     font-weight: bold;
     text-align: center;
+    padding: 0.2em;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #febc10;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+    .tecn{
+        text-align: center;
+    }
+
+    .tecn img{
+        max-width: 100%;
+        background: #201E1F;
+        padding: 10px;
+    }
+
+.rodape {
+    color: azure;
+    text-align: center;
+    font-size: 1.3em;
     padding: 0.2em;
 }
