@@ -1,217 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+	<title>João Arthur</title>
+	<meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<script src="https://use.fontawesome.com/0e6abb771b.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="icon" href="img/icon-bl.jpg">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+</head>
+<body>
+	<!-- CABEÇALHO -->
+	<header>
+		<div class="container-fluid cabecalho">
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Sobre</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Habilidades</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Fale comigo</a>
+			</li>
+		</ul>
+		</div>
+		</header>
 
-    <title>Proposta de Negócio</title>
-  </head>
-  <body>
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>Topo</b></button>
-        <div class="container-fluid">
-        <nav id="menu" class="navbar  fixed-top navbar-expand-lg navbar-light ">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#orcamento_id">Orçamento</a>
-                <a class="nav-link" href="#tecnologias_id">Tecnologias Utilizadas</a>
-                <a class="nav-link" href="#equipe_id">Equipe</a>
-        </nav>
+	<div class="container-fluid about-me">
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				<div class="mainimage"> <img src="img/mainimage.jpg" class="rounded-circle"
+					width="250" height="250"></div>
+			</div>
+			<div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
+				<h1><b>JOÃO ARTHUR</b></h1>
+				<h3 >Programador Java com ênfase em desenvolvimento web</h3>
+				<hr>
+				<h3>Sobre mim</h3>
+				<p>João é programador em Java desde 2015.
+				Além de programador, João é músico, toca violão, piano, gaita e também adora
+				cantar. Um dos seus maiores objetivos como programador é entrar para o desenvolvimento de games.
+				</p>
+			</div >
+	</div>
+	</div>
 
-        <div class="home-foto">
-            <h1 class="proposta">Proposta de Negócio</h1>
-            <p class="textinho">Proposta de negócio para desenvolvimento de site e aplicativo.<br> O site e aplicativo servirão como atravessadores.</p>
-        </div>
+	<div class="container-fluid habilidades">
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+			<h1>Habilidades</h1>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+				<label>Java</label>
+				<img src="img/java.png" width="30" height="30"><br>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"> 65%</div>
+				</div>
+				<label>SQL</label>
+				<img src="img/sql-icon.png" width="30" height="30"><br>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"> 90%</div>
+				</div>
+				<label>HTML5</label>
+				<img src="img/html5.png" width="30" height="30"><br>
+				<div class="progress">
+					<div class="progress-bar progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"> 95%</div>
+				</div>
+				<label>CSS3</label>
+				<img src="img/css3.png" width="30" height="30"><br>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 70%</div>
+				</div>
+				<label>Bootstrap</label>
+				<img src="img/bootstrap.png" width="30" height="30"><br>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"> 80%</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-        <div id = "orcamento_id">
-          <div id = "orcamento_titulo">
-            <h1 class="orcamento-titulo">Orçamento</h1>
-                <p class="orcamento-texto">Os preços foram calculados por funcionalidade.<br> Quanto mais difícil de implementar uma funcionalidade, mais caro será ela.</p>
-          </div>
-                <div class="card-deck mb-3  text-center" style="margin: 20px;">
-                  <div class="card mb-4 text-white bg-dark shadow-sm">
-                    <div class="card-header">
-                      <h4 class="my-0 font-weight-normal">Aplicativo</h4>
-                    </div>
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">R$ 2.500 <small class="text-muted">,00</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>Cadastrar Usuário</li>
-                        <li>Gerar Indicadores</li>
-                        <li>Consultar Produtos</li>
-                        <li>Procurar Produto Específico</li>
-                        <li>Gerar QR Code</li>
-                        <li>Gerar Desconto</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card mb-4 text-white bg-dark shadow-sm">
-                    <div class="card-header">
-                      <h4 class="my-0 font-weight-normal">Site</h4>
-                    </div>
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">R$ 1.900 <small class="text-muted">,00</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>Cadastrar Loja</li>
-                        <li>Cadastrar Usuário</li>
-                        <li>Gerar Indicadores</li>
-                        <li>Consultar Produtos</li>
-                        <li>Consultar Produto Específico</li>
-                        </br>
-                      </ul>
-                    </div>
-                  </div>
-                </div> 
-        </div>
-  <div id = "tecnologias_id">
-    <h1 class="proposta">Tecnologias Utilizadas</h1>
-    <div class="container">
-      <b><p class="textinho">Tecnologias utilizadas além do básico HTML, CSS, JavaScript.</p></b>
-      <div class="row tecn">
-        <div class="col-lg-4">
-          <img class="" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Generic placeholder image" width="auto" height="140">
-          <h2>AngularJS</h2>
-          <b><p>Angular é uma plataforma e framework para construção da interface de aplicações usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google.</p></b>
-          <p><a class="btn btn-dark" href="https://angular.io/" role="button">Sobre »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="" src="https://avatars1.githubusercontent.com/u/5658226?s=200&v=4" alt="Generic placeholder image" width="auto" height="140">
-          <h2>Express</h2>
-          <b><p>O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.</p></b>
-          <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="" src="https://nodejs.org/static/images/logo.svg" alt="Generic placeholder image" width="auto" height="140">
-          <h2>Node.js</h2>
-          <b><p>Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.</p></b>
-          <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
-        </div><!-- /.col-lg-4 -->
+	<div class="container-fluid fale-comigo">
+		<div class="row">
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<form action="https://formspree.io/joaoarthur988@gmail.com" method="POST">
+				<div class="form-group">
+					<label for="nome" class="fonte-contato">Nome</label>
+					<input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp" placeholder="Nome">
+				</div>
+				<div class="form-group">
+					<label for="email" class="fonte-contato">Email</label>
+					<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+				</div>
+
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1" class="fonte-contato">Mensagem</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+
+				<button type="submit" value="submit" class="btn btn-primary">Submit</button>
+			</form>
+			
+			</div>
+		</div>
+	</div>
 
 
-        <div class="row tecn">
-          <div class="col-lg-4">
-            <img class="" src="https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png" alt="Generic placeholder image" width="auto" height="140">
-            <h2>MongoDB</h2>
-            <b><p>MongoDB é um banco de dados de código aberto, gratuito, de alta performance, sem esquemas e orientado à documentos, lançado em fevereiro de 2009 pela empresa 10gen. </p></b>
-            <p><a class="btn btn-dark" href="https://angular.io/" role="button">Sobre »</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="" src="http://www.cachina.com.br/wp-content/uploads/2015/05/ionic-logo-268x300.png" alt="Generic placeholder image" width="auto" height="140">
-            <h2>Ionic 2</h2>
-            <b><p>Ionic é um framework para desenvolvimento de aplicações para dispositivos móveis que visa o desenvolvimento de apps híbridas e de rápido e fácil desenvolvimento.</p></b>
-            <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="" src="https://leafletjs.com/docs/images/logo.png" alt="Generic placeholder image" width="auto" height="140">
-            <h2>Leaflet Maps</h2>
-            <b><p>Leaflet é uma biblioteca open-source na linguagem JavaScript para mapas interativos. Funciona com eficiência na maioria das plataformas móveis e desktop.</p></b>
-            <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div>
-      </div>   
-    </div>
 
-  </div>
+<!-- HABILIDADES -->
 
-  <p></p>
 
-        <div id = "equipe_id">
-          <h1 class="orcamento-titulo">Equipe</h1>
-          <b><p class="orcamento-texto">Os quatro integrantes que formam a equipe de desenvolvimento dos projetos do aplicativo e do site.</p></b>
-          <div class="row">
-                <div class="column">
-                  <div class="card">
-                    <img src="https://instagram.fnat1-1.fna.fbcdn.net/vp/fd21463da0dd8f68e4af861923ef654c/5CC391F8/t51.2885-15/e35/49447767_230465291202475_111999076638624618_n.jpg?_nc_ht=instagram.fnat1-1.fna.fbcdn.net" alt="p" style="width:100%;height: 150%">
-                    <div class="container">
-                      <h2 class = "nome_programadores">Társila Samille</h2>
-                      <p class="title">Programmer</p>
-                      <p class="title">Técnica em Informática pelo IFRN - Campus São Gonçalo do Amarante (2015-2018)</p>
-                      </br>
-                      </br>
-                      <p>tarsillasamille@gmail.com</p>
-                      <p><button href="https://tarsilasamille.github.io/eu/" class="button">Contact</button></p>
-                    </div>
-                  </div>
-                </div>
-
-                    <div class="column">
-                  <div class="card">
-                    <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/44329402_1719472758164294_8364034284486393856_n.jpg?_nc_cat=107&_nc_ht=scontent.fnat1-1.fna&oh=e7154742dce8b5dc678b0872c949e803&oe=5CCC1004" alt="p" style="width:100%">
-                    <div class="container">
-                      <h2 class = "nome_programadores">João Arthur</h2>
-                      <p class="title">Programmer</p>
-                      <p class="title">Técnico em Informática pelo IFRN - Campus São Gonçalo do Amarante (2015-2018)</p>
-                      </br>
-                      </br>
-                      <p>joaoarthur988@gmail.com</p>
-                      <p><button class="button">Contact</button></p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="column">
-                  <div class="card">
-                    <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/25395772_1513922091976606_3300802110950620521_n.jpg?_nc_cat=111&_nc_ht=scontent.fnat1-1.fna&oh=3caf25d85c241c68eef3e717eca84072&oe=5C8D4EEF" alt="p" style="width:100%">
-                    <div class="container">
-                      <h2 class = "nome_programadores">Lucas Gabriel</h2>
-                      <p class="title">Programmer </p>
-                      <p class="title">Técnico em Informática pelo IFRN - Campus São Gonçalo do Amarante (2013-2016) | Graduando em T.I. - Engenharia de Software pela UFRN (2017 - atualmente)</p>
-                      <p>lucasgmpaiva1@gmail.com</p>
-                      <p><button class="button">Contact</button></p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="column">
-                  <div class="card">
-                    <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/29314573_1485162784946669_8919421534938857472_n.jpg?_nc_cat=101&_nc_ht=scontent.fnat1-1.fna&oh=96d98a8c305bd7f8dd264b2c7d3f395d&oe=5CCAAA08" alt="p" style="width:100%">
-                    <div class="container">
-                      <h2 class = "nome_programadores">Yasmin Souza</h2>
-                      <p class="title">Tester </p>
-                      <p class="title">Técnico em Informática pelo IFRN - Campus São Gonçalo do Amarante (2015-2018)</p>
-                      </br>
-                      </br>
-                      <p>yasmin.souza5644@gmail.com</p>
-                      <p><button class="button">Contact</button></p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              
-        </div>
-
-        <div class="rodape">
-          <footer>
-            <small> &copy; Copyright - All Rights Reserved</small>
-          </footer>
-        </div>
-
-<p></p>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script>
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-          } else {
-            document.getElementById("myBtn").style.display = "none";
-          }
-        }
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-    </script>
-  </body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 </html>

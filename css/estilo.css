@@ -1,0 +1,56 @@
+body {
+	background-color:#21a3c6;
+}
+/* CABEÇALHO */
+.cabecalho {
+	background-color: #25283d;
+	color: white;
+	padding: 0.5em;
+} 
+
+.cabecalho a {
+	color: white;
+}
+
+.about-me {
+	background-color: #21a3c6;
+	color: white;
+	padding: 7em;
+
+}
+.cabecalho hr {
+  height: 5px;
+  color: black;
+}
+
+/* HABILIDADES */ 
+
+.habilidades {
+	padding: 5em; 
+	background-color: #f6f7f8;
+	color: black;
+	padding-left: 120px !important;
+  	font-weight: bold;
+  	font-size: 20px;
+}
+
+label {
+	padding-top: 0.7em;
+}
+
+/* FALE COMIGO */
+
+.fale-comigo {
+	background-color: #292F36;
+	color: white;
+	padding: 5em; 
+}
+
+.fale-comigo h1 {
+	justify-content: center;
+
+}
+
+.icones {
+	padding: 5em;
+}
