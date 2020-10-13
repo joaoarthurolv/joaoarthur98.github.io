@@ -27,11 +27,17 @@ body {
 
 .habilidades {
 	padding: 5em; 
-	background-color: #f6f7f8;
-	color: black;
+	background-image: url("../img/parallax.jpg");
+	color: rgba(255, 255, 255, 0.897);
 	padding-left: 120px !important;
   	font-weight: bold;
-  	font-size: 20px;
+	font-size: 20px;
+
+	height: 75%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;  
 }
 
 label {
